@@ -41,7 +41,7 @@ collectibles l2("Red Dragon", "NFT", "Legendary", 5000);
 vector<collectibles> allCollectibles(10000, null1);
 
 class users{
-    string username, fullname; int age, credits=2000, level=1; vector<string> avatar = {"Default"}; vector<int> collection;
+    string username, fullname; int age, credits=2000; vector<string>avatar = {"Default"}; vector<int> collection;
 
     public:
         users(string a, string b, int c){username = a; fullname = b; age = c;}
@@ -50,7 +50,6 @@ class users{
         void addCredits(int x){credits += x;}
         void spendCredits(int x){credits -= x;}
         int getCredits(){return credits;}
-        void levelup(){level++;}
         void addAvatar(string s){avatar.push_back(s);}
         void addCollectible(int x){collection.push_back(x);}
         void displayStats(){
@@ -58,7 +57,6 @@ class users{
             cout<<"Full Name: "<<fullname<<endl;
             cout<<"Age: "<<age<<endl;
             cout<<"Credits: "<<credits<<endl;
-            cout<<"Level: "<<level<<endl;
             cout<<"Avatars: ";
             for (int i = 0; i < avatar.size(); i++){cout<<avatar[i]<<", ";}
             cout<<endl<<endl;
@@ -705,8 +703,6 @@ void collectibleInit(){
 }
 void usersInit(){
     allUsers[0].addCredits(8000); allUsers[1].addCredits(8000); allUsers[2].addCredits(8000);
-    allUsers[0].levelup(); allUsers[1].levelup(); allUsers[2].levelup();
-    allUsers[0].levelup(); allUsers[1].levelup(); allUsers[2].levelup();
     allUsers[0].addAvatar("Rockstar"); allUsers[0].addAvatar("Dark Knight");
     allUsers[1].addAvatar("Mickey Mouse"); allUsers[1].addAvatar("Invisible Man");
     allUsers[2].addAvatar("Doraemon"); allUsers[2].addAvatar("Pablo Escobar");
