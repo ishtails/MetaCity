@@ -1,7 +1,10 @@
 ******************************* WELCOME TO PLAYSTATION *******************************
 
-Playstation is a video game console developed by Sony. The PlayStation is one of the biggest brands in the gaming industry. It belongs to the fifth generation of Sony consoles and it competed directly with the Nintendo 64 and the Sega Saturn. At present, more than 700 games are available on the platform, which are made up of many PS3 titles and triple-A PlayStation 4 games, including God of War, Grand Theft Auto 5, Infamous Second Son, and Uncharted 4: A thief's End. All games are available on a Netflix-style monthly subscription model.
+Playstation is a video game console developed by Sony. The PlayStation is one of the biggest brands in the gaming industry. 
+It belongs to the fifth generation of Sony consoles and it competed directly with the Nintendo 64 and the Sega Saturn. At present, 
+more than 700 games are available on the platform, which are made up of many PS3 titles and triple-A PlayStation 4 games, including 
+God of War, Grand Theft Auto 5, Infamous Second Son, and Uncharted 4: A thief's End. All games are available on a Netflix-style monthly 
+subscription model.
 
 First time users get a 7-day free trial period and it then costs £8.99 per month in the UK, $9.99 in the US.
-
-You can also purchase a quarterly or yearly subscription up front, to get a discount. They are priced at $24.99 and $59.99 respectively.
+You can also purchase a quarterly or yearly subscription up front, to get a discount.

@@ -1,5 +1,7 @@
 ******************************* WELCOME TO AQUATICA *******************************
 
-Aquatica is a water theme park and resort in Kolkata having many exciting themed rides, slides, entertainment and recreational activities for all their guests. The water park occupies over 75000 square feet of area and provides for a pleasant respite from the scorching summer heat. They provide lockers for the visitors to keep their belongings securely. With many rides one can choose from, the young and the old, both are bound to find something to suit their requirement. Whether one wants to laze around in the pool or go for a thrilling water slide, there's something for everyone here. In between the ride, if one feels a need for a snack they can head to the restaurant that serves a variety of local and international cuisine.
-
-The entry fee for one person is 40$ on non weekend days and 65$ on weekends.
+Aquatica is a water theme park and resort having many exciting themed rides, slides, entertainment and recreational activities for all their guests. 
+The water park occupies over 75000 square feet of area and provides for a pleasant respite from the scorching summer heat. They provide lockers for 
+the visitors to keep their belongings securely. With many rides one can choose from, the young and the old, both are bound to find something to suit 
+their requirement. Whether one wants to laze around in the pool or go for a thrilling water slide, there's something for everyone here. In between 
+the ride, if one feels a need for a snack they can head to the restaurant that serves a variety of local and international cuisine.
