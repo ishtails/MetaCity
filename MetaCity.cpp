@@ -2,6 +2,7 @@
 #include<fstream>
 #include<conio.h>
 #include<cstdlib>
+#include <cstdio>
 #include<algorithm>
 #include<string.h>
 #include<vector>
@@ -601,6 +602,8 @@ int main(){
                 break;
         }
     } while(exit1 == 0);
+
+    remove("complaints.txt");
 }
 
 int mainMenu(){
