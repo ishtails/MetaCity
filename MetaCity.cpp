@@ -163,7 +163,6 @@ int maintainerMenu(int);
 int userLogin();
 int maintainerLogin();
 void registerUser();
-void showAllCollectibles();
 void collectibleInit();
 void usersInit();
 void lottery(int);
