@@ -82,8 +82,8 @@ class users{
 }; 
 users null("NULL", "NULL", 0);
 users t1("ishtails", "Kartikay Tiwari", 21);
-users t2("vichu", "Vyshnav Ajith", 19);
-users t3("coccoomber", "Arjun Binu", 18);
+users t2("vichu", "Vyshnav Ajith", 18);
+users t3("arjun", "Arjun Binu", 19);
 vector<users> allUsers = {t1, t2, t3};
 
 class maintainers{
