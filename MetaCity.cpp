@@ -657,6 +657,35 @@ int checkExistingUser(string username){
         }
     } return 0;
 }
+
+void pause(int dur)
+{
+    int temp = time(NULL)+dur;
+    while(temp > time(NULL));
+}
+
+int chance = 0;
+int userAuth(string username, int token){
+    
+    if(token >= allAdmins.size()){
+        cout<<"UserID & Token does not match. Please recheck and enter again!\n\n";
+        return 1;
+    }
+    
+    if(allUsers[token].getUsername() != username){
+        cout<<"Username & Token does not match. Please recheck and enter again!\n\n";
+        chance=chance+1;
+        if (chance==3){
+            cout<<"Authentication failed after 3 tries. Wait for 5 seconds before you try again\n\n";
+            pause(5);
+            chance = 0;
+        }
+        return 1;
+    }
+    
+    return 0;
+}
+
 int userAuth(string username, int token){
     if(token >= allUsers.size()){
         cout<<"Username & Token does not match. Please recheck and enter again!\n\n";
